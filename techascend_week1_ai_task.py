@@ -12,6 +12,13 @@ age: int = 25
 name: str = "Gabriel"
 temperature: float = 36.9
 
+print("=" * 40)
+print("1. VARIABLES")
+print("=" * 40)
+print(f"  Integer : {age!r}  → type: {type(age).__name__}")
+print(f"  Float   : {temperature!r}  → type: {type(temperature).__name__}")
+print(f"  String  : {name!r}  → type: {type(name).__name__}")
+
 # ─────────────────────────────────────────────
 # 2. LOOPS
 # ─────────────────────────────────────────────
@@ -48,7 +55,7 @@ def add_numbers(a: float, b: float) -> float:
 print("\n" + "=" * 40)
 print("3. FUNCTIONS")
 print("=" * 40)
-result = add_numbers(5.5, 3.2)
+result = add_numbers(7.0, 3.0)
 print(f"The sum is: {result}")
 
 # ─────────────────────────────────────────────
@@ -86,7 +93,7 @@ for key, value in person.items():
 # ─────────────────────────────────────────────
 
 def analyse_sentence(sentence: str) -> dict[str, int | list[str]]:
-    """Analyse a sentence and return basic statistics ie the number of words, characters, and unique words form the sentence.
+    """Analyse a sentence and return basic statistics i.e. the number of words, characters, and unique words form the sentence.
 
     Args:
         sentence: Raw text entered by the user.
