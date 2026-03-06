@@ -45,3 +45,15 @@ def add_numbers(a: float, b: float) -> float:
 
 # result = add_numbers(5.5, 3.2)
 # print(f"The sum is: {result}")
+
+# ─────────────────────────────────────────────
+# 4. LISTS
+# ─────────────────────────────────────────────
+
+# Create a list of fruits
+players: list[str] = ["kobe", "jordan", "curry", "james", "siakam"]
+
+print("List of players:")
+for index, player in enumerate(players, start=1):
+    print(f" {index}. {player}")
+
