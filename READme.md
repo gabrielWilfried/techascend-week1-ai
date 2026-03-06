@@ -66,8 +66,8 @@ Enter a sentence: The quick brown fox jumps
 ## File Structure
 
 ```
-📄 python_fundamentals_exercises.py   ← single script, all exercises
-📄 README.md                          ← this file
+📄 techascend_week1_ai_task.py   ← single script, all exercises
+📄 READme.md                          ← this file
 ```
 
 ---
