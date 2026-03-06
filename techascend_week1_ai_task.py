@@ -25,3 +25,23 @@ num = 1
 while num <= 10:
     print(num)
     num += 1
+
+
+# ─────────────────────────────────────────────
+# 3. FUNCTIONS
+# ─────────────────────────────────────────────
+
+def add_numbers(a: float, b: float) -> float:
+    """Return the sum of two numbers.
+
+        Args:
+            a: First operand.
+            b: Second operand.
+
+        Returns:
+            The arithmetic sum of *a* and *b*.
+    """
+    return a + b
+
+# result = add_numbers(5.5, 3.2)
+# print(f"The sum is: {result}")
